@@ -1,0 +1,195 @@
+/**************************************************************************
+ *
+ * File Name        : RACE.RC
+ *
+ ****************************************************************************/
+
+#define SS_TEXT               0x0001
+#define SS_GROUBBOX           0x0002
+#define SS_ICON               0x0003
+#define SS_BITMAP             0x0004
+#define SS_FGNDRECT           0x0005
+#define SS_HALFTONERECT       0x0006
+#define SS_BKGNDRECT          0x0007
+#define SS_FGNDFRAME          0x0008
+#define SS_HALFTONEFRAME      0x0009
+#define SS_BKGNDFRAME         0x000A
+#define SS_SYSICON            0x000B
+#define SS_AUTOSIZE           0x0040
+
+
+#define WC_FRAME             0xffff0001L
+#define WC_COMBOBOX          0xffff0002L
+#define WC_BUTTON            0xffff0003L
+#define WC_MENU              0xffff0004L
+#define WC_STATIC            0xffff0005L
+#define WC_ENTRYFIELD        0xffff0006L
+#define WC_LISTBOX           0xffff0007L
+#define WC_SCROLLBAR         0xffff0008L
+#define WC_TITLEBAR          0xffff0009L
+#define WC_MLE               0xffff000AL
+#define WC_APPSTAT           0xffff0010L
+#define WC_KBDSTAT           0xffff0011L
+#define WC_PECIC             0xffff0012L
+#define WC_DBE_KKPOPUP       0xffff0013L
+#define WC_SPINBUTTON        0xffff0020L
+#define WC_CONTAINER         0xffff0025L
+#define WC_SLIDER            0xffff0026L
+#define WC_VALUESET          0xffff0027L
+#define WC_NOTEBOOK          0xffff0028L
+#define WC_PENFIRST          0xffff0029L
+#define WC_PENLAST           0xffff002CL
+#define WC_MMPMFIRST         0xffff0040L
+#define WC_CIRCULARSLIDER    0xffff0041L
+#define WC_MMPMLAST          0xffff004fL
+
+#define WS_VISIBLE                 0x80000000L
+#define WS_DISABLED                0x40000000L
+#define WS_CLIPCHILDREN            0x20000000L
+#define WS_CLIPSIBLINGS            0x10000000L
+#define WS_PARENTCLIP              0x08000000L
+#define WS_SAVEBITS                0x04000000L
+#define WS_SYNCPAINT               0x02000000L
+#define WS_MINIMIZED               0x01000000L
+#define WS_MAXIMIZED               0x00800000L
+#define WS_ANIMATE                 0x00400000L
+
+#define WS_GROUP                   0x00010000L
+#define WS_TABSTOP                 0x00020000L
+#define WS_MULTISELECT             0x00040000L
+
+#define FCF_TITLEBAR               0x00000001L
+#define FCF_SYSMENU                0x00000002L
+#define FCF_MENU                   0x00000004L
+#define FCF_SIZEBORDER             0x00000008L
+#define FCF_MINBUTTON              0x00000010L
+#define FCF_MAXBUTTON              0x00000020L
+#define FCF_MINMAX                 0x00000030L
+#define FCF_VERTSCROLL             0x00000040L
+#define FCF_HORZSCROLL             0x00000080L
+#define FCF_DLGBORDER              0x00000100L
+#define FCF_BORDER                 0x00000200L
+#define FCF_SHELLPOSITION          0x00000400L
+#define FCF_TASKLIST               0x00000800L
+#define FCF_NOBYTEALIGN            0x00001000L
+#define FCF_NOMOVEWITHOWNER        0x00002000L
+#define FCF_ICON                   0x00004000L
+#define FCF_ACCELTABLE             0x00008000L
+#define FCF_SYSMODAL               0x00010000L
+#define FCF_SCREENALIGN            0x00020000L
+#define FCF_MOUSEALIGN             0x00040000L
+#define FCF_HIDEBUTTON             0x01000000L
+#define FCF_HIDEMAX                0x01000020L
+#define FCF_AUTOICON               0x40000000L
+#define FCF_STANDARD               0x0000CC3FL
+
+#define FS_ICON                    0x00000001L
+#define FS_ACCELTABLE              0x00000002L
+
+#define FS_SHELLPOSITION           0x00000004L
+
+#define FS_TASKLIST                0x00000008L
+#define FS_NOBYTEALIGN             0x00000010L
+#define FS_NOMOVEWITHOWNER         0x00000020L
+#define FS_SYSMODAL                0x00000040L
+#define FS_DLGBORDER               0x00000080L
+#define FS_BORDER                  0x00000100L
+#define FS_SCREENALIGN             0x00000200L
+#define FS_MOUSEALIGN              0x00000400L
+#define FS_SIZEBORDER              0x00000800L
+#define FS_AUTOICON                0x00001000L
+
+#define DT_LEFT                         0x0000
+#define DT_QUERYEXTENT                  0x0002
+#define DT_UNDERSCORE                   0x0010
+#define DT_STRIKEOUT                    0x0020
+#define DT_TEXTATTRS                    0x0040
+#define DT_EXTERNALLEADING              0x0080
+#define DT_CENTER                       0x0100
+#define DT_RIGHT                        0x0200
+#define DT_TOP                          0x0000
+#define DT_VCENTER                      0x0400
+#define DT_BOTTOM                       0x0800
+#define DT_HALFTONE                     0x1000
+#define DT_MNEMONIC                     0x2000
+#define DT_WORDBREAK                    0x4000
+#define DT_ERASERECT                    0x8000
+
+#define DID_OK      1
+#define DID_CANCEL  2
+
+/***********************************************/
+
+#define ID_MAINWND      256
+#define ID_OPTIONS      257
+#define ID_SNAP         258
+#define ID_SNAP2        259
+#define ID_EXIT         260
+#define ID_NEWTEXT      261
+
+#define MIS_TEXT 0x0001
+#define ID_START        262
+#define ID_PAUSE        263
+
+#define ID_STARTUPDLG   300
+#define ID_BITMAP       301
+
+#define ID_SOUND                    320
+#define ID_MOUSE                    321
+#define ID_JOY                      322
+#define ID_TEST                     323
+#define ID_WAVE                     324
+#define ID_TRANS                    325
+#define ID_FOCUS                    326
+
+
+ICON    ID_MAINWND diverace.ico
+BITMAP  ID_BITMAP  PRELOAD diverace.bmp
+
+MENU                                    ID_MAINWND      PRELOAD
+   {
+   SUBMENU      "~Race",             ID_OPTIONS,     MIS_TEXT
+      {
+      MENUITEM  "~Start\tF10",        ID_START,        MIS_TEXT
+      MENUITEM  "~Pause\tF5",         ID_PAUSE,       MIS_TEXT
+      MENUITEM                                          SEPARATOR
+      MENUITEM  "E~xit\tF3",            ID_EXIT,        MIS_TEXT
+      }
+   SUBMENU      "~Options",             ID_OPTIONS,     MIS_TEXT
+      {
+      MENUITEM  "~Snap 1:1\tF1",        ID_SNAP,        MIS_TEXT
+      MENUITEM  " Snap ~2:1\tF2",        ID_SNAP2,       MIS_TEXT
+      }
+   }
+
+/*DLGTEMPLATE ID_STARTUPDLG PRELOAD MOVEABLE DISCARDABLE*/
+DLGTEMPLATE ID_STARTUPDLG MOVEABLE DISCARDABLE
+BEGIN                                        /*56, 4*/
+    DIALOG  "DiveRace v.0.1", ID_STARTUPDLG, 0, 0, 232, 156, FS_SCREENALIGN |
+            0 /*WS_VISIBLE*/, FCF_SYSMENU | FCF_TITLEBAR
+    BEGIN
+        DEFPUSHBUTTON   "~OK", DID_OK, 60, 4, 45, 15
+        CONTROL         ID_BITMAP, ID_BITMAP, 4, 120, 21, 21, WC_STATIC,
+                        SS_BITMAP | WS_GROUP | WS_VISIBLE
+        AUTOCHECKBOX    "~Sound Mixing", ID_SOUND, 12, 80, 68, 10
+        AUTORADIOBUTTON "~Mouse", ID_MOUSE, 16, 64, 60, 10, WS_TABSTOP
+        AUTORADIOBUTTON "~Joystick 1", ID_JOY, 16, 52, 60, 10, WS_TABSTOP
+        GROUPBOX        "Game Control", 313, 12, 48, 76, 32
+        AUTOCHECKBOX    "~Watch only", ID_TEST, 124, 80, 100, 10
+        AUTOCHECKBOX    "~Display Sound Buffer", ID_WAVE, 124, 68, 96, 10
+        GROUPBOX        "Game Settings", 312, 4, 44, 100, 56
+        AUTOCHECKBOX    "~Translate Colors", ID_TRANS, 124, 56, 88, 10
+        AUTOCHECKBOX    "~Pause on lost Focus", ID_FOCUS, 124, 44, 96, 10
+        GROUPBOX        "Debug Settings", 314, 120, 44, 108, 56
+        PUSHBUTTON      "~Abort", DID_CANCEL, 120, 4, 45, 15
+        CTEXT           "a game programming demonstration", 301, 4, 112, 220,
+                        8, DT_VCENTER
+        CTEXT           "by Michael Mrosowski", 302, 4, 104, 220, 8,
+                        DT_VCENTER
+        CTEXT           "This early demo might cause your system to hang",
+                        303, 4, 32, 224, 8, DT_VCENTER
+        CTEXT           "if incompatibilities or programming errors occur.",
+                        304, 8, 24, 220, 8, DT_VCENTER
+    END
+END
+
